@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bk.iste" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Crypt" >
+            <intent-filter>
+                <action android:name="android.intent.action.Crypt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CryptSecondActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.CryptSecondActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CryptThirdActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.CryptThirdActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Charge" >
+            <intent-filter>
+                <action android:name="android.intent.action.Charge" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChargeSecondActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.ChargeSecondActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChargeThirdActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.ChargeThirdActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Blog" >
+            <intent-filter>
+                <action android:name="android.intent.action.Blog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Events" >
+            <intent-filter>
+                <action android:name="android.intent.action.Events" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".Clutch" >
+        </activity>
+        <activity android:name=".CrutchSecondActivity" >
+        </activity>
+        <activity android:name=".CrutchThirdActivity" >
+        </activity>
+        <activity android:name=".Civil" >
+        </activity>
+        <activity android:name=".CivilSecondActivity" >
+        </activity>
+        <activity android:name=".CivilThirdActivity" >
+        </activity>
+        <activity android:name=".Credit" >
+        </activity>
+        <activity android:name=".CreditSecondActivity" >
+        </activity>
+        <activity android:name=".CreditThirdActivity" >
+        </activity>
+        <activity android:name=".Chronicle" >
+        </activity>
+        <activity android:name=".ChronicleSecondActivity" >
+        </activity>
+        <activity android:name=".ChronicleThirdActivity" >
+        </activity>
+        <activity android:name=".Create" >
+        </activity>
+        <activity android:name=".CreateSecondActivity" >
+        </activity>
+        <activity android:name=".Main2Activity" >
+        </activity>
+        <activity android:name=".CreateThirdActivity" >
+        </activity>
+        <activity android:name=".Transcend" >
+        </activity>
+        <activity android:name=".Botstacle" >
+        </activity>
+        <activity android:name=".CivilEvents" >
+        </activity>
+        <activity android:name=".Crysis" >
+        </activity>
+        <activity android:name=".Git" >
+        </activity>
+        <activity android:name=".SerialCoder" >
+        </activity>
+        <activity android:name=".Spectacle" >
+        </activity>
+    </application>
+
+</manifest>
